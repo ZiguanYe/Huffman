@@ -1,0 +1,22 @@
+-Start from L
+-explore L
+	-discover H (g=1, h=4, f=5)
+	-discover P (g=1, h=6, f=7)
+-explore H
+	-discover G(g=2, h=3, f=5)
+	-discover D(g=2, h=3, f=5)
+-explore D
+	-discover C(g=3, h=2, f=5)
+-explore C
+	-discover G(g=4, h=3, f=7) (does not update G)
+-explore G
+	-discover K(g=3, h=4, f=7)
+-explore K
+	-discover J(g=4, h=3, f=7)
+-explore J
+	-discover I(g=5, h=2, f=7)
+	-discover N(g=5, h=4, f=9)
+-explore I
+	-discover E(g=6, h=1, f=7)
+-explore E
+	-discover A(g=7, h=0, f=7) (find A)
